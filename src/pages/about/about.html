@@ -1,11 +1,17 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Posts
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+    <ion-list>
+        <button ion-item *ngFor="let post of listPosts | async" (click)="goToPostDetail(post)">
+          {{ post.title | uppercase }}
+        </button>  
+      </ion-list>
 
 </ion-content>
