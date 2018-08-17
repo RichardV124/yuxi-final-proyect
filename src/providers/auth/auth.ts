@@ -14,7 +14,7 @@ export class AuthProvider {
   constructor(private angularFireAuth: AngularFireAuth) {
   }
 
-  /**
+  /** PROBANDO EL GIT
    * Método que hace la transaccion para el inicio de sesión en la aplicación.
    * @param email, email con el que se iniciara sesion
    * @param password Contraseña con la que se efectuara el inicio de sesión.
