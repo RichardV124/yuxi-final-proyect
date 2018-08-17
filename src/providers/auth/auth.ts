@@ -14,11 +14,7 @@ export class AuthProvider {
   constructor(private angularFireAuth: AngularFireAuth) {
   }
 
-<<<<<<< HEAD
   /** lol
-=======
-  /** CONFLICTOS PROBANDO
->>>>>>> 7f3521655db23050254ac6a3b0a046fad0af0c7c
    * Método que hace la transaccion para el inicio de sesión en la aplicación.
    * @param email, email con el que se iniciara sesion
    * @param password Contraseña con la que se efectuara el inicio de sesión.
