@@ -16,7 +16,7 @@ export class MyApp {
     platform.ready().then(() => {
       statusBar.styleDefault();
       splashScreen.hide();
-      // Se realiza la validación de usuario en sesión para redireccionar según el caso.
+      // Se realiza la validación de usuario en sesión para redireccionar según el caso.  ggggg
       if (this.authProvider.getStatus()) {
         this.rootPage = TabsPage;
       } else {
